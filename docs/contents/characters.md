@@ -16,12 +16,9 @@ hide:
 }
 
 .character-card {
-    background: var(--md-default-bg-color);
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
-    border: 1px solid var(--md-default-fg-color--lightest);
+    height: 100%; /* 占满容器高度 */
+    display: flex;
+    flex-direction: column; /* 垂直排列 */
 }
 
 .character-card:hover {
@@ -61,7 +58,8 @@ hide:
 }
 
 .character-tags {
-    margin-top: 8px;
+    margin-top: auto; /* 推到容器底部 */
+    flex-shrink: 0; /* 防止被压缩 */
 }
 
 .tag {
@@ -170,7 +168,7 @@ hide:
     <!-- 角色1 -->
     <a href="characters/zhangsan" class="character-link">
         <div class="character-card" data-tags="Anon">
-            <img src="D:\AI-Web\Shuixin-xdu.github.io\docs\contents\pictorial_guide\anon_dog.png" alt="Anon犬" class="character-image" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/anon_dog.png" alt="Anon犬" class="character-image" loading="lazy">
             <div class="character-info">
                 <h3 class="character-name">Anon犬</h3>
                 <p class="character-description">
@@ -186,11 +184,11 @@ hide:
     <!-- 角色2 -->
     <a href="characters/zhangsan" class="character-link">
         <div class="character-card" data-tags="Soyo">
-            <img src="D:\AI-Web\Shuixin-xdu.github.io\docs\contents\pictorial_guide\soyo_fox.png" alt="Soyo狸" class="character-image" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/soyo_fox.png" alt="Soyo狸" class="character-image" loading="lazy">
             <div class="character-info">
                 <h3 class="character-name">Soyo狸</h3>
                 <p class="character-description">
-                经典款，亚麻色棉花小狐狸，喜好红茶蛋糕，会唐哭，性格(通常)温顺，较机灵。
+                经典款，亚麻棕棉花小狐狸，喜好红茶蛋糕，会唐哭，性格(通常)温顺，较机灵。
                 </p>
                 <div class="character-tags">
                     <span class="tag">Soyo</span>
@@ -202,7 +200,7 @@ hide:
     <!-- 角色3 -->
     <a href="characters/zhangsan" class="character-link">
         <div class="character-card" data-tags="Tomori">
-            <img src="D:\AI-Web\Shuixin-xdu.github.io\docs\contents\pictorial_guide\tomori_penguin.png" alt="Tomori企鹅" class="character-image" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/tomori_penguin.png" alt="Tomori企鹅" class="character-image" loading="lazy">
             <div class="character-info">
                 <h3 class="character-name">Tomori企鹅</h3>
                 <p class="character-description">
@@ -218,7 +216,7 @@ hide:
     <!-- 角色4 -->
     <a href="characters/zhangsan" class="character-link">
         <div class="character-card" data-tags="Taki">
-            <img src="D:\AI-Web\Shuixin-xdu.github.io\docs\contents\pictorial_guide\taki_wolf.png" alt="Taki狼" class="character-image" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/taki_wolf.png" alt="Taki狼" class="character-image" loading="lazy">
             <div class="character-info">
                 <h3 class="character-name">Taki狼</h3>
                 <p class="character-description">
@@ -234,7 +232,7 @@ hide:
     <!-- 角色5 -->
     <a href="characters/zhangsan" class="character-link">
         <div class="character-card" data-tags="Rana">
-            <img src="D:\AI-Web\Shuixin-xdu.github.io\docs\contents\pictorial_guide\rana_cat.png" alt="Rana猫" class="character-image" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/rana_cat.png" alt="Rana猫" class="character-image" loading="lazy">
             <div class="character-info">
                 <h3 class="character-name">Rana猫</h3>
                 <p class="character-description">
@@ -242,6 +240,86 @@ hide:
                 </p>
                 <div class="character-tags">
                     <span class="tag">Rana</span>
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <!-- 角色6 -->
+    <a href="characters/zhangsan" class="character-link">
+        <div class="character-card" data-tags="Umiri">
+            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/umiri_wolf.png" alt="Umiri狼" class="character-image" loading="lazy">
+            <div class="character-info">
+                <h3 class="character-name">Umiri狼</h3>
+                <p class="character-description">
+                经典款，黑色率直棉花小狼，表面上比较高冷难以接近，战斗力较强，靠谱利索。
+                </p>
+                <div class="character-tags">
+                    <span class="tag">Umiri</span>
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <!-- 角色7 -->
+    <a href="characters/zhangsan" class="character-link">
+        <div class="character-card" data-tags="Uika">
+            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/uika_dog.png" alt="Uika犬" class="character-image" loading="lazy">
+            <div class="character-info">
+                <h3 class="character-name">Uika犬</h3>
+                <p class="character-description">
+                经典款，温柔的浅金黄色棉花小狗，<del>忠于</del>喜欢Saki猫，通常乖巧阳光，待人温暖，但...
+                </p>
+                <div class="character-tags">
+                    <span class="tag">Uika犬</span>
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <!-- 角色8 -->
+    <a href="characters/zhangsan" class="character-link">
+        <div class="character-card" data-tags="Mutsumi">
+            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/mutsumi_rabbit.png" alt="Mutsumi兔" class="character-image" loading="lazy">
+            <div class="character-info">
+                <h3 class="character-name">Mutsumi兔</h3>
+                <p class="character-description">
+                经典款，浅绿色三无棉花小兔子，喜欢黄瓜，表情变化少十分人机，通常温顺，偶尔<del>变脸</del><del>精分</del>████。
+                </p>
+                <div class="character-tags">
+                    <span class="tag">Mutsumi</span>
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <!-- 角色9 -->
+    <a href="characters/zhangsan" class="character-link">
+        <div class="character-card" data-tags="Nyamu">
+            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/nyamu_cat.png" alt="Nyamu猫" class="character-image" loading="lazy">
+            <div class="character-info">
+                <h3 class="character-name">Nyamu猫</h3>
+                <p class="character-description">
+                经典款，紫色调皮棉花小猫，曾经高人气<del>但过气了</del>的网红猫，成天想办法整活。
+                </p>
+                <div class="character-tags">
+                    <span class="tag">Nyamu</span>
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <!-- 角色10 -->
+    <a href="characters/zhangsan" class="character-link">
+        <div class="character-card" data-tags="Saki">
+            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/saki_cat.png" alt="Saki猫" class="character-image" loading="lazy">
+            <div class="character-info">
+                <h3 class="character-name">Saki猫</h3>
+                <p class="character-description">
+                经典款，浅蓝色软糯棉花小猫，喜欢音乐，勤奋，工作地点随机出现，但也会哈气。
+                </p>
+                <div class="character-tags">
+                    <span class="tag">Saki</span>
                 </div>
             </div>
         </div>
