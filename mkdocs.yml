@@ -1,0 +1,52 @@
+site_name: AI邦娃遗迹
+site_description: AI邦娃
+site_author: Shuixin
+site_url: https://shuixin-xdu.github.io/ 
+
+# 主题配置
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 浅色模式
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: 深色模式
+
+# 扩展
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# 导航
+nav:
+  - 首页: index.md
+  - 角色图鉴: contents/characters.md
+
+# 页脚
+extra:
+  generator: false  # 隐藏"Powered by MkDocs"
