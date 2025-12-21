@@ -221,7 +221,7 @@ description: 角色视频集合
     <a href="测试视频" class="video-link">
         <div class="video-card" data-tags="{{ video.tags | join(' ') }}">
             <div class="video-thumbnail">
-                <img src="" alt="测试视频" loading="lazy">
+                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/part_normal/videos/test0.png" alt="测试视频" loading="lazy">
                 <div class="video-play-btn">▶</div>
                 <div class="video-duration">时长</div>
             </div>
