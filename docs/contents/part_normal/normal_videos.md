@@ -2,6 +2,9 @@
 title: 视频中心
 layout: default
 description: 角色视频集合
+hide:
+  - navigation  # 隐藏左侧导航
+  - toc         # 隐藏右侧目录（可选）
 ---
 
 <style>
@@ -218,20 +221,15 @@ description: 角色视频集合
 </div>
 
 <div class="video-gallery" id="videoGallery">
-    <a href="测试视频" class="video-link">
-        <div class="video-card" data-tags="{{ video.tags | join(' ') }}">
+<a href="../videos/nv0/nv0" class="video-link">
+        <div class="video-card" data-tags="测试">
             <div class="video-thumbnail">
-                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/part_normal/videos/test0.png" alt="测试视频" loading="lazy">
+                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/part_normal/videos/nv0/nv0.png" alt="测试视频" loading="lazy">
                 <div class="video-play-btn">▶</div>
-                <div class="video-duration">时长</div>
             </div>
             <div class="video-info">
-                <h3 class="video-title">测试视频</h3>
+                <h3 class="video-title">[测试]小anon们一只犬在外面一定要小心</h3>
                 <p class="video-description">这是一个测试视频</p>
-                <div class="video-meta">
-                    <span class="video-date">2025.12.21</span>
-                    <span class="video-views">1</span>
-                </div>
             </div>
         </div>
     </a>
@@ -310,3 +308,4 @@ document.addEventListener('DOMContentLoaded', function() {
     filterVideos();
 });
 </script>
+

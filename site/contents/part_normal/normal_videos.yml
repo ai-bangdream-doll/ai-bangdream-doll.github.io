@@ -1,0 +1,12 @@
+videos:
+  - id: anon-intro
+    title: Anon犬角色介绍
+    description: 了解粉色棉花小狗的日常和性格特点
+    thumbnail: https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/anon_dog.png
+    video_url: https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/videos/anon-intro.mp4
+    duration: "2:30"
+    date: "2024-01-01"
+    tags: ["Anon", "角色介绍", "日常"]
+    author: "水心"
+    views: 1234
+    

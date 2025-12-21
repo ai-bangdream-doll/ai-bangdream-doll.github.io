@@ -165,13 +165,13 @@ hide:
 <div class="character-container" id="characterContainer">
 
     <!-- 角色1 -->
-    <a href="characters/zhangsan" class="character-link">
+    <a href="../characters/anon_dog" class="character-link">
         <div class="character-card" data-tags="Anon">
             <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/anon_dog.png" alt="Anon犬" class="character-image" loading="lazy">
             <div class="character-info">
                 <h3 class="character-name">Anon犬</h3>
                 <p class="character-description">
-                经典款，粉色棉花小狗，喜好水果三明治，会唐笑唐哭，性格(通常)调皮活泼。
+                粉色棉花小狗，喜好水果三明治，会唐笑唐哭，性格(通常)调皮活泼。
                 </p>
                 <div class="character-tags">
                     <span class="tag">Anon</span>
@@ -187,7 +187,7 @@ hide:
             <div class="character-info">
                 <h3 class="character-name">Soyo狸</h3>
                 <p class="character-description">
-                经典款，亚麻棕棉花小狐狸，喜好红茶蛋糕，会唐哭，性格(通常)温顺，较机灵。
+                亚麻棕棉花小狐狸，喜好红茶蛋糕，会唐哭，性格(通常)温顺，较机灵。
                 </p>
                 <div class="character-tags">
                     <span class="tag">Soyo</span>
@@ -203,7 +203,7 @@ hide:
             <div class="character-info">
                 <h3 class="character-name">Tomori企鹅</h3>
                 <p class="character-description">
-                经典款，呆萌呆萌的棉花小企鹅?(存疑)，喜欢收集，会咕咕嘎嘎。
+                呆萌呆萌的棉花小企鹅?(存疑)，喜欢收集，会咕咕嘎嘎。
                 </p>
                 <div class="character-tags">
                     <span class="tag">Tomori</span>
@@ -219,7 +219,7 @@ hide:
             <div class="character-info">
                 <h3 class="character-name">Taki狼</h3>
                 <p class="character-description">
-                经典款，黑棕棉花小狼，喜欢熊猫和Tomori企鹅(?)，喂食Rana猫？哈？
+                黑棕棉花小狼，喜欢熊猫和Tomori企鹅(?)，喂食Rana猫？哈？
                 </p>
                 <div class="character-tags">
                     <span class="tag">Taki</span>
@@ -235,7 +235,7 @@ hide:
             <div class="character-info">
                 <h3 class="character-name">Rana猫</h3>
                 <p class="character-description">
-                经典款，银白色棉花异瞳小猫，喜欢吃抹茶味的食物，调皮灵动，喜欢恶作剧。
+                银白色棉花异瞳小猫，喜欢吃抹茶味的食物，调皮灵动，喜欢恶作剧。
                 </p>
                 <div class="character-tags">
                     <span class="tag">Rana</span>
@@ -251,7 +251,7 @@ hide:
             <div class="character-info">
                 <h3 class="character-name">Umiri狼</h3>
                 <p class="character-description">
-                经典款，黑色率直棉花小狼，表面上比较高冷难以接近，战斗力较强，靠谱利索。
+                黑色率直棉花小狼，表面上比较高冷难以接近，战斗力较强，靠谱利索。
                 </p>
                 <div class="character-tags">
                     <span class="tag">Umiri</span>
@@ -267,7 +267,7 @@ hide:
             <div class="character-info">
                 <h3 class="character-name">Uika犬</h3>
                 <p class="character-description">
-                经典款，温柔的浅金黄色棉花小狗，<del>忠于</del>喜欢Saki猫，通常乖巧阳光，待人温暖，但...
+                温柔的浅金黄色棉花小狗，<del>忠于</del>喜欢Saki猫，通常乖巧阳光，待人温暖，但...
                 </p>
                 <div class="character-tags">
                     <span class="tag">Uika犬</span>
@@ -283,7 +283,7 @@ hide:
             <div class="character-info">
                 <h3 class="character-name">Mutsumi兔</h3>
                 <p class="character-description">
-                经典款，浅绿色三无棉花小兔子，喜欢黄瓜，表情变化少十分人机，通常温顺，偶尔<del>变脸</del><del>精分</del>████。
+                浅绿色三无棉花小兔子，喜欢黄瓜，表情变化少十分人机，通常温顺，偶尔<del>变脸</del><del>精分</del>████。
                 </p>
                 <div class="character-tags">
                     <span class="tag">Mutsumi</span>
@@ -299,7 +299,7 @@ hide:
             <div class="character-info">
                 <h3 class="character-name">Nyamu猫</h3>
                 <p class="character-description">
-                经典款，紫色调皮棉花小猫，曾经高人气<del>但过气了</del>的网红猫，成天想办法整活。
+                紫色调皮棉花小猫，曾经高人气<del>但过气了</del>的网红猫，成天想办法整活。
                 </p>
                 <div class="character-tags">
                     <span class="tag">Nyamu</span>
@@ -315,7 +315,7 @@ hide:
             <div class="character-info">
                 <h3 class="character-name">Saki猫</h3>
                 <p class="character-description">
-                经典款，浅蓝色软糯棉花小猫，喜欢音乐，勤奋，工作地点随机出现，但也会哈气。
+                浅蓝色软糯棉花小猫，喜欢音乐，勤奋，工作地点随机出现，但也会哈气。
                 </p>
                 <div class="character-tags">
                     <span class="tag">Saki</span>
@@ -327,11 +327,11 @@ hide:
     <!-- 角色11 -->
     <a href="characters/zhangsan" class="character-link">
         <div class="character-card" data-tags="Soyo">
-            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/temsora.png" alt="天素罗" class="character-image" loading="lazy">
+            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/soyo_temsora.png" alt="天素罗" class="character-image" loading="lazy">
             <div class="character-info">
                 <h3 class="character-name">天素罗</h3>
                 <p class="character-description">
-                经典款，天妇罗炸虾状的棉花小生物，
+                天妇罗炸虾状的棉花小生物，像小精灵一样散布于各种群系，不过水中最为常见，喜好虾米和薯片，会“欧耶！欧耶！”的叫。
                 </p>
                 <div class="character-tags">
                     <span class="tag">Soyo</span>
