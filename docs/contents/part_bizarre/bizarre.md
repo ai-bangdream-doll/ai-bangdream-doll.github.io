@@ -224,7 +224,7 @@ hide:
 <a href="../videos/bv0/bv0" class="video-link">
         <div class="video-card" data-tags="测试">
             <div class="video-thumbnail">
-                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/part_normal/videos/bv0/bv0.png" alt="测试视频" loading="lazy">
+                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/part_bizarre/videos/bv0/bv0.png" alt="测试视频" loading="lazy">
                 <div class="video-play-btn">▶</div>
             </div>
             <div class="video-info">
