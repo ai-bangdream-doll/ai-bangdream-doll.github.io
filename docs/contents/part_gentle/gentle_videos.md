@@ -217,22 +217,323 @@ hide:
 </style>
 
 <div class="filter-container">
-    <input type="text" class="search-box" placeholder="搜索视频标题..." id="videoSearch">
+    <input type="text" class="search-box" placeholder="搜索视频标题或作者名..." id="videoSearch">
 </div>
 
 <div class="video-gallery" id="videoGallery">
 <a href="../videos/gv0/gv0" class="video-link">
-        <div class="video-card" data-tags="测试">
+        <div class="video-card" data-tags="">
             <div class="video-thumbnail">
-                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/part_gentle/videos/gv0/gv0.png" alt="测试视频" loading="lazy">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv0.png" alt="测试视频" loading="lazy">
                 <div class="video-play-btn">▶</div>
             </div>
             <div class="video-info">
                 <h3 class="video-title">[测试]雨后小故事</h3>
-                <p class="video-description">这是一个测试视频</p>
+                <p class="video-description">水芯笔没盖帽</p>
             </div>
         </div>
     </a>
+<a href="../videos/gv1/gv1" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv1.png" alt="带着anon犬去上班" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">带着anon犬去上班</h3>
+                <p class="video-description">太阳神大菠萝a</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv2/gv2" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv2.png" alt="外出游玩的粉毛大狗跟主人走散了..." loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">外出游玩的粉毛大狗跟主人走散了...</h3>
+                <p class="video-description">千草王爱音</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv3/gv3" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv3.png" alt="贤惠soyo狸妈妈和聪明anon犬女儿" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">贤惠soyo狸妈妈和聪明anon犬女儿</h3>
+                <p class="video-description">柔情锂砂镍</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv4/gv4" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv4.png" alt="天素罗被抓走的下场是什么呢" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">天素罗被抓走的下场是什么呢</h3>
+                <p class="video-description">Mihrticy</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv5/gv5" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv5.png" alt="天素罗悠闲的一天" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">天素罗悠闲的一天</h3>
+                <p class="video-description">卢浮宫保安</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv6/gv6" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv6.png" alt="小anon想要ccb！?" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">小anon想要ccb！?</h3>
+                <p class="video-description">千早soyo狸</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv7/gv7" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv7.png" alt="【长剧情】anon母子随遇而安的生活:意外悄然而至" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">【长剧情】anon母子随遇而安的生活:意外悄然而至</h3>
+                <p class="video-description">三月MOONMOONMOON_</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv8/gv8" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv8.png" alt="神社巫女素樱狸和申必小柴犬小anon" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">神社巫女素樱狸和申必小柴犬小anon</h3>
+                <p class="video-description">某只滑稽</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv9/gv9" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv9.png" alt="soyo狸你不许偷喝洗澡水！那是我的红茶！" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">soyo狸你不许偷喝洗澡水！那是我的红茶！</h3>
+                <p class="video-description">让我想想我还能说什么</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv10/gv10" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv10.png" alt="天素罗不是扫玩意" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">天素罗不是扫玩意</h3>
+                <p class="video-description">阿贝木子米</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv11/gv11" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv11.png" alt="【番外】anon母子的日常（温馨无略）" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">【番外】anon母子的日常（温馨无略）</h3>
+                <p class="video-description">愚煤人</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv12/gv12" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv12.png" alt="晚安，小祥" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">晚安，小祥</h3>
+                <p class="video-description">百里天雷_Animus</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv13/gv13" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv13.png" alt="soyorin和小天素罗亲密互动" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">soyorin和小天素罗亲密互动</h3>
+                <p class="video-description">野生昆虫菌</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv14/gv14" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv14.png" alt="【剧情向】要怎么处理淘气的anon犬！" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">【剧情向】要怎么处理淘气的anon犬！</h3>
+                <p class="video-description">5000ml</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv15/gv15" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv15.png" alt="soyo教你如何饲养anon犬（附妙妙工具使用方法）" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">soyo教你如何饲养anon犬（附妙妙工具使用方法）</h3>
+                <p class="video-description">火球术重度依赖</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv16/gv16" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv16.png" alt="【Fu MyGo】在公园露营的可爱猫灯" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">【Fu MyGo】在公园露营的可爱猫灯</h3>
+                <p class="video-description">_黄油牛角包_</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv17/gv17" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv17.png" alt="（爱向）垃圾袋里哭唧唧，洗干净后笑眯眯" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">（爱向）垃圾袋里哭唧唧，洗干净后笑眯眯</h3>
+                <p class="video-description">气槽-official</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv18/gv18" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv18.png" alt="(纯爱、无略)大小anon犬和soyo狸一家的温馨日常！" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">(纯爱、无略)大小anon犬和soyo狸一家的温馨日常！</h3>
+                <p class="video-description">折纸厨</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv19/gv19" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv19.png" alt="【治愈】mygo经典老歌之《同桌的灯》" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">【治愈】mygo经典老歌之《同桌的灯》</h3>
+                <p class="video-description">XYZ的世界</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv20/gv20" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv20.png" alt="立希狼，为企鹅灯的生日准备最独一无二的礼物" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">立希狼，为企鹅灯的生日准备最独一无二的礼物</h3>
+                <p class="video-description">louisssssssss</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv21/gv21" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv21.png" alt="睦儿这个受宠丨间章：灰斑睦无忧无虑的童年" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">睦儿这个受宠丨间章：灰斑睦无忧无虑的童年</h3>
+                <p class="video-description">爽食要乐奈</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv22/gv22" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv22.png" alt="Anon犬的宝宝学走路日记！" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">Anon犬的宝宝学走路日记！</h3>
+                <p class="video-description">但还是喜欢嘉然小姐</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv23/gv23" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv23.png" alt="胖天素罗的来历（配音版）" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">胖天素罗的来历（配音版）</h3>
+                <p class="video-description">常年在各处游荡的钻头</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv24/gv24" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv24.png" alt="在垃圾桶边上捡到的野生soyo狸" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">在垃圾桶边上捡到的野生soyo狸</h3>
+                <p class="video-description">扶桑雪莲</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/gv25/gv25" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/gv25.png" alt="Soyo狸：圣诞快乐，欧耶～" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">Soyo狸：圣诞快乐，欧耶～</h3>
+                <p class="video-description">若叶睦叶村</p>
+            </div>
+        </div>
+    </a>
+
 </div>
 
 <div class="no-results" id="noResults" style="display: none;">

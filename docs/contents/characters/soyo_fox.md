@@ -20,7 +20,7 @@ hide:
     <!-- 左侧图片区域 -->
     <div class="character-detail-image">
         <div class="main-image">
-            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/soyo_fox.png" 
+            <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/characters/soyo_fox.png" 
                  alt="Soyo狸 主图" 
                  id="mainCharacterImage"
                  loading="eager">
@@ -28,14 +28,14 @@ hide:
         
         <!-- 缩略图图集 -->
         <div class="thumbnail-gallery">
-            <div class="thumbnail active" data-image="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/soyo_fox.png">
-                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/soyo_fox.png" alt="主图">
+            <div class="thumbnail active" data-image="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/characters/soyo_fox.png">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/characters/soyo_fox.png" alt="主图">
             </div>
-            <div class="thumbnail" data-image="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/characters/soyo_fox/pic1.png">
-                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/characters/soyo_fox/pic1.png" alt="子图1">
+            <div class="thumbnail" data-image="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/characters/soyo_fox/pic1.png">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/characters/soyo_fox/pic1.png" alt="子图1">
             </div>
-            <div class="thumbnail" data-image="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/characters/soyo_fox/pic2.png">
-                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/characters/soyo_fox/pic2.png" alt="子图2">
+            <div class="thumbnail" data-image="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/characters/soyo_fox/pic2.png">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/characters/soyo_fox/pic2.png" alt="子图2">
             </div>
         </div>
     </div>

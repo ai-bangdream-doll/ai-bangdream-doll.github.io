@@ -217,19 +217,19 @@ hide:
 </style>
 
 <div class="filter-container">
-    <input type="text" class="search-box" placeholder="搜索视频标题..." id="videoSearch">
+    <input type="text" class="search-box" placeholder="搜索视频标题或作者名..." id="videoSearch">
 </div>
 
 <div class="video-gallery" id="videoGallery">
 <a href="../videos/bv0/bv0" class="video-link">
-        <div class="video-card" data-tags="测试">
+        <div class="video-card" data-tags="">
             <div class="video-thumbnail">
-                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/part_bizarre/videos/bv0/bv0.png" alt="测试视频" loading="lazy">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/bv0.png" alt="[需魔法]【阿脓犬】垃圾场大冒险（坏结局）" loading="lazy">
                 <div class="video-play-btn">▶</div>
             </div>
             <div class="video-info">
-                <h3 class="video-title">[测试]【阿脓犬】垃圾场大冒险（坏结局）</h3>
-                <p class="video-description">这是一个测试视频</p>
+                <h3 class="video-title">[需魔法]【阿脓犬】垃圾场大冒险（坏结局）</h3>
+                <p class="video-description">若葉睦0214号人格</p>
             </div>
         </div>
     </a>

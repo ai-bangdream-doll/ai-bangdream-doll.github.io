@@ -1,5 +1,5 @@
 ---
-title: 角色名 详细资料
+title: Tomori企鹅 详细资料
 layout: default
 hide:
   - navigation
@@ -20,22 +20,22 @@ hide:
     <!-- 左侧图片区域 -->
     <div class="character-detail-image">
         <div class="main-image">
-            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/角色名.png" 
-                 alt="角色名 主图" 
+            <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/Tomori企鹅.png" 
+                 alt="Tomori企鹅 主图" 
                  id="mainCharacterImage"
                  loading="eager">
         </div>
         
         <!-- 缩略图图集 -->
         <div class="thumbnail-gallery">
-            <div class="thumbnail active" data-image="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/soyo_fox.png">
-                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/角色名.png" alt="主图">
+            <div class="thumbnail active" data-image="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/Tomori企鹅.png">
+                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/pictorial_guide/Tomori企鹅.png" alt="主图">
             </div>
-            <div class="thumbnail" data-image="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/characters/soyo_fox/pic1.png">
-                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/characters/角色名/pic1.png" alt="子图1">
+            <div class="thumbnail" data-image="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/characters/Tomori企鹅/pic1.png">
+                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/characters/Tomori企鹅/pic1.png" alt="子图1">
             </div>
-            <div class="thumbnail" data-image="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/characters/soyo_fox/pic2.png">
-                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/characters/角色名/pic2.png" alt="子图2">
+            <div class="thumbnail" data-image="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/characters/Tomori企鹅/pic2.png">
+                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/characters/Tomori企鹅/pic2.png" alt="子图2">
             </div>
         </div>
     </div>
@@ -43,12 +43,12 @@ hide:
     <!-- 右侧信息区域 -->
     <div class="character-detail-info">
         <div class="character-header">
-            <h1 class="character-title">角色名</h1>
+            <h1 class="character-title">Tomori企鹅</h1>
             <div class="character-tags">
-                <span class="tag primary">xx系</span>
-                <span class="tag secondary">x科</span>
+                <span class="tag primary">Tomori系</span>
+                <span class="tag secondary">企鹅科</span>
                 <span class="tag accent">棉花生物</span>
-                <span class="tag">xx型</span>
+                <span class="tag">安静型</span>
             </div>
         </div>
         
@@ -57,19 +57,19 @@ hide:
             <table>
                 <tr>
                     <th>物种类型</th>
-                    <td>棉花x型生物</td>
+                    <td>棉花企鹅型生物</td>
                 </tr>
                 <tr>
                     <th>毛色</th>
-                    <td>xxx</td>
+                    <td>黑白外毛皮，发色为灰？紫？有争议</td>
                 </tr>
                 <tr>
                     <th>首次发现</th>
-                    <td>xxx</td>
+                    <td>首次发现于南极，但是后来也有部分个体不知为何出现在羽丘女子学院的周边，伪装成了石头被路人坐下歇脚...</td>
                 </tr>
                 <tr>
                     <th>常见出没地</th>
-                    <td>xxx</td>
+                    <td>路边的草丛中，动物园，街上，南极</td>
                 </tr>
                 <tr>
                     <th>关联角色</th>
@@ -80,7 +80,7 @@ hide:
                 </tr>
                 <tr>
                     <th>危险等级</th>
-                    <td><span class="danger-level medium">★★★☆☆</span></td>
+                    <td><span class="danger-level medium">★☆☆☆☆</span></td>
                 </tr>
             </table>
         </div>
@@ -88,7 +88,7 @@ hide:
         <!-- 快速描述 -->
         <div class="quick-description">
             <h3>简介</h3>
-            <p>请输入文本</p>
+            <p>棉花小企鹅，是MyGO!!!!!乐队的主唱......吗？部分个体安静可爱内向温柔，但是也有部分个体疑似精神有问题(<del>不要抢它们的石头<\del>)，会咕咕嘎嘎地叫。</p>
         </div>
         
         <!-- 特性指标 -->
@@ -98,23 +98,23 @@ hide:
                 <div class="stat-item">
                     <div class="stat-label">活泼度</div>
                     <div class="stat-bar">
-                        <div class="stat-fill" style="width: 0%;"></div>
+                        <div class="stat-fill" style="width: 30%;"></div>
                     </div>
-                    <div class="stat-value">?/10</div>
+                    <div class="stat-value">3/10</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-label">情绪波动</div>
                     <div class="stat-bar">
-                        <div class="stat-fill" style="width: 0%;"></div>
+                        <div class="stat-fill" style="width: 70%;"></div>
                     </div>
-                    <div class="stat-value">?/10</div>
+                    <div class="stat-value">7/10</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-label">破坏力</div>
                     <div class="stat-bar">
-                        <div class="stat-fill" style="width: 0%;"></div>
+                        <div class="stat-fill" style="width: 70%;"></div>
                     </div>
-                    <div class="stat-value">?/10</div>
+                    <div class="stat-value">7/10</div>
                 </div>
             </div>
         </div>
@@ -158,7 +158,7 @@ hide:
     <section class="detail-section">
         <h2>背景故事</h2>
         <div class="section-content">
-            <p>角色名 最初被发现于？，请输入文本</p>
+            <p>Tomori企鹅 最初被发现于？，请输入文本</p>
             
             <div class="timeline">
                 <div class="timeline-item">

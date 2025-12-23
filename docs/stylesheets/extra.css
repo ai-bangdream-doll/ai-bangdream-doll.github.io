@@ -1,0 +1,8 @@
+.social-links a {
+  text-decoration: none;
+  margin-right: 15px; /* 图标间距 */
+}
+.social-links i:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}

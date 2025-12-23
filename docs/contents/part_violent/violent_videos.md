@@ -217,19 +217,79 @@ hide:
 </style>
 
 <div class="filter-container">
-    <input type="text" class="search-box" placeholder="搜索视频标题..." id="videoSearch">
+    <input type="text" class="search-box" placeholder="搜索视频标题或作者名..." id="videoSearch">
 </div>
 
 <div class="video-gallery" id="videoGallery">
 <a href="../videos/vv0/vv0" class="video-link">
-        <div class="video-card" data-tags="测试">
+        <div class="video-card" data-tags="">
             <div class="video-thumbnail">
-                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/part_violent/videos/vv0/vv0.png" alt="测试视频" loading="lazy">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/vv0.png" alt="测试视频" loading="lazy">
                 <div class="video-play-btn">▶</div>
             </div>
             <div class="video-info">
                 <h3 class="video-title">[测试]AI娃娃两则</h3>
-                <p class="video-description">这是一个测试视频</p>
+                <p class="video-description">水芯笔没盖帽</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/vv1/vv1" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/vv1.png" alt="流浪小anon犬的恶作剧方法(喵梦TIME)" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">[需魔法]流浪小anon犬的恶作剧方法(喵梦TIME)</h3>
+                <p class="video-description">久世愛莉</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/vv2/vv2" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/vv2.png" alt="制作soyo球球永动机的方法！" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">[需魔法]制作soyo球球永动机的方法！</h3>
+                <p class="video-description">久世愛莉</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/vv3/vv3" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/vv3.png" alt="胖胖天素罗的恶作剧方法(喵梦TIME)" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">[需魔法]胖胖天素罗的恶作剧方法(喵梦TIME)</h3>
+                <p class="video-description">久世愛莉</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/vv4/vv4" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/vv4.png" alt="挖洞soyo狸的恶作剧方法(喵梦TIME)" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">[需魔法]挖洞soyo狸的恶作剧方法(喵梦TIME)</h3>
+                <p class="video-description">久世愛莉</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/vv5/vv5" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/vv5.png" alt="流浪soyo狸的驱除方法(喵梦TIME)" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">[需魔法]流浪soyo狸的驱除方法(喵梦TIME)</h3>
+                <p class="video-description">久世愛莉</p>
             </div>
         </div>
     </a>

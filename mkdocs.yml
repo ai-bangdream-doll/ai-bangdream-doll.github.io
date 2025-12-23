@@ -1,7 +1,7 @@
 site_name: AI邦娃遗迹
 site_description: AI邦娃
 site_author: Shuixin
-site_url: https://shuixin-xdu.github.io/ 
+site_url: https://ai-bangdream-doll.github.io/ 
 
 # 主题配置
 theme:
@@ -41,6 +41,12 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+extra_javascript:
+  - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+extra_css:
+  - "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  - "stylesheets/extra.css"
+
 
 # 导航
 nav:
@@ -65,14 +71,49 @@ nav:
   - 爱向视频: 
     - 爱向: contents/part_gentle/gentle_videos.md
     - gv0: contents/part_gentle/videos/gv0/gv0.md
+    - gv1: contents/part_gentle/videos/gv1/gv1.md
+    - gv2: contents/part_gentle/videos/gv2/gv2.md
+    - gv3: contents/part_gentle/videos/gv3/gv3.md
+    - gv4: contents/part_gentle/videos/gv4/gv4.md
+    - gv5: contents/part_gentle/videos/gv5/gv5.md
+    - gv6: contents/part_gentle/videos/gv6/gv6.md
+    - gv7: contents/part_gentle/videos/gv7/gv7.md
+    - gv8: contents/part_gentle/videos/gv8/gv8.md
+    - gv9: contents/part_gentle/videos/gv9/gv9.md
+    - gv10: contents/part_gentle/videos/gv10/gv10.md
+    - gv11: contents/part_gentle/videos/gv11/gv11.md
+    - gv12: contents/part_gentle/videos/gv12/gv12.md
+    - gv13: contents/part_gentle/videos/gv13/gv13.md
+    - gv14: contents/part_gentle/videos/gv14/gv14.md
+    - gv15: contents/part_gentle/videos/gv15/gv15.md
+    - gv16: contents/part_gentle/videos/gv16/gv16.md
+    - gv17: contents/part_gentle/videos/gv17/gv17.md
+    - gv18: contents/part_gentle/videos/gv18/gv18.md
+    - gv19: contents/part_gentle/videos/gv19/gv19.md
+    - gv20: contents/part_gentle/videos/gv20/gv20.md
+    - gv21: contents/part_gentle/videos/gv21/gv21.md
+    - gv22: contents/part_gentle/videos/gv22/gv22.md
+    - gv23: contents/part_gentle/videos/gv23/gv23.md
+    - gv24: contents/part_gentle/videos/gv24/gv24.md
+    - gv25: contents/part_gentle/videos/gv25/gv25.md
 # <----------------------------------------------->
   - 虐向视频: 
     - 虐向: contents/part_violent/violent_videos.md
     - vv0: contents/part_violent/videos/vv0/vv0.md
+    - vv1: contents/part_violent/videos/vv1/vv1.md
+    - vv2: contents/part_violent/videos/vv2/vv2.md
+    - vv3: contents/part_violent/videos/vv3/vv3.md
+    - vv4: contents/part_violent/videos/vv4/vv4.md
+    - vv5: contents/part_violent/videos/vv5/vv5.md
 # <----------------------------------------------->
   - 一般/剧情向视频: 
     - 一般向: contents/part_normal/normal_videos.md
     - nv0: contents/part_normal/videos/nv0/nv0.md
+    - nv1: contents/part_normal/videos/nv1/nv1.md
+    - nv2: contents/part_normal/videos/nv2/nv2.md
+    - nv3: contents/part_normal/videos/nv3/nv3.md
+    - nv4: contents/part_normal/videos/nv4/nv4.md
+    - nv5: contents/part_normal/videos/nv5/nv5.md
 # <----------------------------------------------->
   - 猎奇专区: 
     - 猎奇向: contents/part_bizarre/bizarre.md

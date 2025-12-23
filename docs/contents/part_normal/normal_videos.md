@@ -217,19 +217,79 @@ hide:
 </style>
 
 <div class="filter-container">
-    <input type="text" class="search-box" placeholder="搜索视频标题..." id="videoSearch">
+    <input type="text" class="search-box" placeholder="搜索视频标题或作者名..." id="videoSearch">
 </div>
 
 <div class="video-gallery" id="videoGallery">
 <a href="../videos/nv0/nv0" class="video-link">
-        <div class="video-card" data-tags="测试">
+        <div class="video-card" data-tags="">
             <div class="video-thumbnail">
-                <img src="https://cdn.jsdelivr.net/gh/Shuixin-xdu/Shuixin-xdu.github.io@main/docs/contents/part_normal/videos/nv0/nv0.png" alt="测试视频" loading="lazy">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/nv0.png" alt="测试视频" loading="lazy">
                 <div class="video-play-btn">▶</div>
             </div>
             <div class="video-info">
                 <h3 class="video-title">[测试]小anon们一只犬在外面一定要小心</h3>
-                <p class="video-description">这是一个测试视频</p>
+                <p class="video-description">水芯笔没盖帽</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/nv1/nv1" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/nv1.png" alt="[My狗1]一次买狗的经历" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">[My狗1]一次买狗的经历</h3>
+                <p class="video-description">水芯笔没盖帽</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/nv2/nv2" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/nv2.png" alt="[My狗2]天雷滚滚我好怕怕" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">[My狗2]天雷滚滚我好怕怕</h3>
+                <p class="video-description">水芯笔没盖帽</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/nv3/nv3" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/nv3.png" alt="[My狗3]阿侬的故事" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">[My狗3]阿侬的故事</h3>
+                <p class="video-description">水芯笔没盖帽</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/nv4/nv4" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/nv4.png" alt="[My狗4]带小爱音出去玩了" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">[My狗4]带小爱音出去玩了</h3>
+                <p class="video-description">水芯笔没盖帽</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/nv5/nv5" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/nv5.png" alt="被卖到矿场的小爱素，命途多舛" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">被卖到矿场的小爱素，命途多舛</h3>
+                <p class="video-description">圣女波丽娜_official</p>
             </div>
         </div>
     </a>
