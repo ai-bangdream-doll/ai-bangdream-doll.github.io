@@ -123,4 +123,5 @@ extra:
   generator: false  # 隐藏"Powered by MkDocs"
 
 extra_javascript:
-  - js/christmas.js
+#  - js/christmas.js
+  - js/extra_v.js
