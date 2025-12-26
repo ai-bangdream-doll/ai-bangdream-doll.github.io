@@ -49,7 +49,7 @@ function createPopup() {
     <div id="festivalPopup">
         <div class="popup-header-bar">
             <span>🎁 圣诞惊喜</span>
-            <button class="popup-close-btn" id="popupCloseBtn">×</button>
+            <div class="close-hit-area"><button class="popup-close-btn" id="popupCloseBtn">×</button></div>
         </div>
         <div class="popup-content">
             <div class="art-text" id="popupText">您的圣诞礼物汪</div>
@@ -160,54 +160,53 @@ function createPopup() {
         document.addEventListener('touchmove', doDrag);
         document.addEventListener('mouseup', stopDrag);
         document.addEventListener('touchend', stopDrag);
+
+        const hitArea = popup.querySelector('.close-hit-area');
+            if (hitArea) {
+            ['mousedown', 'touchstart'].forEach(evt => {
+                hitArea.addEventListener(evt, (e) => e.stopPropagation());
+            });
+        }
     }
 
-    // ==================== 5. 弹窗交互逻辑 ====================
-    function setupPopupInteraction(container, popup) {
-        const closeBtn = document.getElementById('popupCloseBtn');
-        const receiveBtn = document.getElementById('receiveBtn');
-        const popupImage = document.getElementById('popupMedia');
-        const popupText = document.getElementById('popupText');
+// ==================== 5. 弹窗交互逻辑 ====================
+function setupPopupInteraction(container, popup) {
+    const closeBtn = document.getElementById('popupCloseBtn');
+    const receiveBtn = document.getElementById('receiveBtn');
+    const popupMedia = document.getElementById('popupMedia'); // 变量名修正：popupImage -> popupMedia
+    const popupText = document.getElementById('popupText');
 
-        let received = false;
+    let received = false;
 
-        // 在 setupPopupInteraction 函数中修改关闭按钮事件：
-        closeBtn.addEventListener('click', function() {
-            if (!received) {
-                // 未接收状态：更换文字、视频，并使用4秒淡出
-                popupText.textContent = '把这盒东西扔出去！';
-                // 改为切换视频源
-                popupMedia.src = videoUrls.close; // popupMedia 是视频元素
-                
-                // 确保视频加载后开始淡出
-                setTimeout(() => {
-                    // 使用12秒淡出动画
-                    container.classList.add('fade-out-slow');
-                    // 12秒后移除弹窗
-                    setTimeout(() => container.remove(), 12000);
-                }, 300);
-                
-                // 立即停止抖动
-                stopShaking();
-            } else {
-                // 已接收状态：直接移除
-                container.remove();
-                stopShaking();
-            }
-        });
+    // 1. 关闭按钮事件
+    closeBtn.addEventListener('click', function() {
+        // 【修复点1】任何关闭操作都立即停止抖动
+        stopShaking();
+        if (!received) {
+            popupText.textContent = '把这盒东西扔出去！';
+            popupMedia.src = videoUrls.close;
+            setTimeout(() => {
+                container.classList.add('fade-out-slow');
+                setTimeout(() => container.remove(), 12000);
+            }, 300);
+        } else {
+            container.remove();
+        }
+    });
 
-        receiveBtn.addEventListener('click', function() {
-            received = true;
-            // 改为切换视频源
-            popupMedia.src = videoUrls.received; // popupMedia 是视频元素
-            popupText.textContent = 'Anon犬想抱抱你';
-            receiveBtn.textContent = '已收到 ❤️';
-            receiveBtn.disabled = true;
-            receiveBtn.style.background = '#ccc';
-            stopShaking();
-        });
-    }
-
+    // 2. 接收按钮事件
+    receiveBtn.addEventListener('click', function() {
+        // 【修复点2】接收后也立即停止抖动
+        stopShaking();
+        received = true;
+        popupMedia.src = videoUrls.received; // 【修复点3】变量名修正
+        popupText.textContent = 'Anon犬想抱抱你';
+        receiveBtn.textContent = '已收到 ❤️';
+        receiveBtn.disabled = true;
+        receiveBtn.style.background = '#ccc';
+        // 此处无需再调用 stopShaking()，已在开头调用
+    });
+}
     // ==================== 6. 弹窗周期性抖动 ====================
     function startShaking(popup) {
         stopShaking();

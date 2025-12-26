@@ -72,55 +72,90 @@
     letter-spacing: 1px;
 }
 /* ==================== 优化1：增大基础尺寸与热区 ==================== */
+/* ==================== 关闭按钮优化 - 精准对齐版 ==================== */
+.popup-header-bar {
+    /* 确保标题栏本身是一个稳固的flex容器，用于居中子项 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* 这是垂直居中的关键 */
+    height: 25px;
+    padding: 0 15px;
+    background: linear-gradient(to right, #c41e3a, #ff6b6b);
+    border-bottom: 2px solid gold;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
 .popup-close-btn {
     background: #ff4757;
     border: none;
     color: white;
-    width: 30px;       /* 增大视觉宽度 */
-    height: 30px;      /* 增大视觉高度 */
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     font-weight: bold;
     cursor: pointer;
-    line-height: 30px; /* 与高度匹配，确保文字居中 */
+    /* 核心：按钮自身也使用flex居中内容 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0;
-    /* 关键：通过定位扩展透明热区 */
     position: relative;
+    /* 重置可能影响定位的属性 */
+    margin: 0;
+    top: 0;
+    line-height: 1;
 }
-/* 为按钮创建一个更大的::after伪元素作为点击区域 */
+/* 透明热区 - 使用绝对定位从中心向外扩展 */
 .popup-close-btn::after {
     content: '';
     position: absolute;
-    top: -10px;        /* 向上扩展10px */
-    right: -10px;      /* 向右扩展10px */
-    bottom: -10px;     /* 向下扩展10px */
-    left: -10px;       /* 向左扩展10px */
-    /* 背景色仅为调试时可见，正式使用应为透明 */
-    /* background: rgba(0,255,0,0.3); */
+    /* 核心修正：从按钮中心点开始，向四周均匀扩展 */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 这个变换确保绝对中心对齐 */
+    width: 44px;  /* 总热区宽度 */
+    height: 44px; /* 总热区高度 */
 }
 .popup-close-btn:hover { background: #ff3742; }
-
-/* ==================== 优化2：移动端专属优化 ==================== */
-@media (max-width: 768px) {
-    .popup-close-btn {
-        width: 38px;       /* 移动端进一步加大 */
-        height: 38px;
-        line-height: 38px;
-        font-size: 1.3em;  /* “×”号也更大 */
-    }
-    /* 移动端热区扩展得更大 */
-    .popup-close-btn::after {
-        top: -15px;
-        right: -15px;
-        bottom: -15px;
-        left: -15px;
-    }
-    /* 可选：调整顶部标题栏高度，为更大的按钮留出空间 */
-    .popup-header-bar {
-        min-height: 35px; /* 增加最小高度 */
-        padding: 0 12px;  /* 调整内边距 */
-    }
+.popup-close-btn:active {
+    transform: scale(0.92);
+    transition: transform 0.1s;
 }
 
+/* ==================== 移动端专属优化 ==================== */
+@media (max-width: 768px) {
+    .popup-header-bar {
+        min-height: 45px; /* 增加高度 */
+        padding: 0 15px;
+        position: relative; /* 新增 */
+    }
+    /* 新的热区容器 */
+    .close-hit-area {
+        position: absolute; /* 绝对定位到标题栏右侧 */
+        right: 5px; /* 微调右间距 */
+        top: 50%;
+        transform: translateY(-50%); /* 垂直居中 */
+        width: 60px; /* 热区宽度 */
+        height: 50px; /* 热区高度 */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+        /* background: rgba(0,255,0,0.3); */ /* 调试用 */
+    }
+    /* 按钮本身恢复常规样式 */
+    .popup-close-btn {
+        position: static; /* 移除绝对定位 */
+        transform: none; /* 移除变换 */
+        width: 38px;
+        height: 38px;
+        font-size: 1.4em;
+        /* 按钮在.close-hit-area中通过flex居中 */
+    }
+}
 /* ==================== 优化3：增强点击反馈（可选但推荐） ==================== */
 .popup-close-btn:active {
     transform: scale(0.92); /* 按下时稍微缩小 */
