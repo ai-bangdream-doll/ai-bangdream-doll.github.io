@@ -293,6 +293,54 @@ hide:
             </div>
         </div>
     </a>
+<a href="../videos/vv6/vv6" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/vv6.png" alt="邦多森林的生物防治" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">[需魔法]邦多森林的生物防治</h3>
+                <p class="video-description">安德烈sama</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/vv7/vv7" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/vv7.png" alt="邦多森林的生物治理（2）" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">[需魔法]邦多森林的生物治理（2）</h3>
+                <p class="video-description">安德烈sama</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/vv8/vv8" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/vv8.png" alt="邦多森林的盗猎者" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">[需魔法]邦多森林的盗猎者</h3>
+                <p class="video-description">安德烈sama</p>
+            </div>
+        </div>
+    </a>
+<a href="../videos/vv9/vv9" class="video-link">
+        <div class="video-card" data-tags="">
+            <div class="video-thumbnail">
+                <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/cover/vv9.png" alt="小茶狸被制裁（1）" loading="lazy">
+                <div class="video-play-btn">▶</div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">[需魔法]小茶狸被制裁（1）</h3>
+                <p class="video-description">安德烈sama</p>
+            </div>
+        </div>
+    </a>
 </div>
 
 <div class="no-results" id="noResults" style="display: none;">

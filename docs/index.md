@@ -38,7 +38,7 @@
 <div class="center-container">
     <div class="image-container">
         <div class="card-border">
-            <img src="https://youke2.picui.cn/s1/2025/12/23/694a4d59afda5.png" alt="index_1.png" title="index_1.png" />
+            <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/pic_index/index_1.png" alt="index_1.png" title="index_1.png" />
         </div>
     </div>
 </div>
@@ -48,7 +48,7 @@
 <div class="center-container">
     <div class="image-container">
         <div class="card-border">
-            <img src="https://youke2.picui.cn/s1/2025/12/23/694a4e1ba9a4a.png" alt="index_1.png" title="index_1.png" />
+            <img src="https://aidoll-1392936919.cos.ap-guangzhou.myqcloud.com/images/pic_index/index_2.png" alt="index_2.png" title="index_2.png" />
         </div>
     </div>
 </div>
